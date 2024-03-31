@@ -1,0 +1,224 @@
+
+.hero{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 950px) {
+        flex-direction: column;
+    }
+    @media (max-width: 650px) {
+        width: 100%;
+    }
+}
+.title{
+    width: 40%;
+    @media (max-width: 950px) {
+       text-align: center;
+    }
+    @media (max-width:700px) {
+        width: 80%;
+    }
+    & .heading{
+        font-size: 40px;
+        font-weight: 700;
+        font-family: sans-serif;
+        @media(max-width: 1000px){
+            font-size: 30px;
+        }
+        & #creator{
+            color: #EC66B7;
+        }
+        &  #collector{
+            color: #546BF6;
+        }
+        @media (max-width:400px) {
+            font-size: 20px;
+        }
+    }
+    & .nft{
+        font-size: 24px;
+        font-weight: 400;
+        font-family: sans-serif;
+        color: #BDBDBD;
+        padding-top: 20px;
+        @media(max-width: 1000px){
+            font-size: 20px;
+        }
+    }
+    & .hero-btn{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        @media (max-width: 900px) {
+            width: 100%;
+        }
+        @media (max-width: 500px) {
+           flex-direction: column;
+        }
+        & .h-btn{
+            padding: 10px 20px;
+            background-color: aliceblue;
+            color: black;
+            border: none;
+            border-radius: 20px;
+            font-family: sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            @media (max-width: 900px) {
+                padding: 5px 10px;
+                font-size: 15px;
+            }
+            @media (max-width: 500px) {
+                margin-top: 20px;
+             }
+        }
+    }
+}
+ 
+.card{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 950px) {
+        margin-top: 30px;
+        flex-direction: column;  
+        width: 70%; 
+    }
+    @media (max-width: 650px) {
+        width: 100%;  
+    }
+    & .card-item1{
+        position: relative;
+        border: 2px solid #FFFFFF80;
+        width: 250px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        
+        @media (max-width: 950px) {
+            width: 80%;
+            display: flex;
+            align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        }
+        
+        & .card-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        & .game{
+            @media (max-width: 500px) {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+        }
+        padding-top: 20px;
+        & .dog{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: sans-serif;
+            padding-top: 10px;
+            padding-left: 25px;
+            @media(max-width: 950px){
+                text-align: center;
+                padding-top: 10px;
+                font-size: 15px;
+                padding-left: 0;
+            }
+            @media (max-width: 500px) {
+                font-size: 12px;
+                padding-left: 0;
+            }
+        }
+        & .card-div{
+        display: flex;
+        
+        margin-top: 10px;
+        @media(max-width: 950px){
+            margin-top: 5px;
+            align-items: center;
+            justify-content: space-around;
+            width: 90%;
+        }
+        
+        & #profile{
+            display: flex;
+            border-radius: 50%;
+            margin-left: 20px;
+            @media (max-width: 500px) {
+                margin-left: 0;
+            }
+        }
+        & .menu{
+            margin-left: 15px;
+            @media (max-width: 500px) {
+               margin-left: 0;
+            }
+            & #menu-titel{
+                font-size: 10px;
+                font-family: sans-serif;
+                font-weight: 400;
+                @media (max-width: 500px) {
+                    font-size: 8px;
+                }
+            }
+            & #menu-p{
+                font-size: 8px;
+                font-family: sans-serif;
+                font-weight: 400;
+                padding-top: 6px;
+                color: #EC66B7;
+            }
+        }
+    }
+} 
+& .item2{
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 23rem;
+    @media (max-width: 750px) {
+        margin-left: 15rem;
+    }
+    @media (max-width: 950px) {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+} 
+& .item3{
+    position: absolute;
+    margin-top: 30rem;
+    width: 160px;
+    margin-right: 13rem;
+    padding: 5px;
+    @media (max-width: 950px) {
+        position: relative;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+} 
+}
+
+@media(max-width: 1000px){
+    .game{
+        width: 150px;
+        height: 150px;
+    }
+}
+.full-size{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    @media (max-width: 650px) {
+        width: 80%;
+    }
+    
+}
+

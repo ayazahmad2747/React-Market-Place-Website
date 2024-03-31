@@ -1,0 +1,166 @@
+
+.left-btn{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    padding-right: 30px;
+    cursor: pointer;
+    @media (max-width: 950px) {
+        display: none;
+    }
+    
+}
+.right-btn{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 30px;
+    cursor: pointer;
+    @media (max-width: 950px) {
+        display: none;
+    }
+}
+.catagories{
+    width: 80%;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    
+    
+}
+.cat-heading{
+    width: 100%;
+    & .cat-title{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        @media (max-width: 950px) {
+            text-align: center;
+        }
+    }
+    
+}
+.cat-box{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   
+
+    @media (max-width: 950px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    & .inner-box{
+        max-width: 18%;
+        min-width: 18%;
+        margin-left: 20px;
+        border-radius: 16px;
+        border: 2px solid #8c8c8c;
+        @media (max-width: 950px) {
+           margin-top: 40px;
+           max-width: 80%;
+           min-width: 80%;
+           margin-left: 0;
+        }
+       
+         & .inner-text{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            height: 200px;
+            background-image: url(../../Component/Images/Catagories/cat1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+            
+            & .cata{
+                background: transparent;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+
+        & .inner-text2{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            height: 200px;
+            background-image: url(../../Component/Images/Catagories/cat2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            & .cata{
+                background: transparent;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+        & .inner-text3{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            height: 200px;
+            background-image: url(../../Component/Images/Catagories/cat3.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            & .cata{
+                background: transparent;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+        & .inner-text4{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            height: 200px;
+            background-image: url(../../Component/Images/Catagories/cat4.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            & .cata{
+                background: transparent;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+        & .inner-text5{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            height: 200px;
+            background-image: url(../../Component/Images/Catagories/cat5.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            & .cata{
+                background: transparent;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: sans-serif;
+            }
+        }
+
+
+    }
+}
+

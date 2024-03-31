@@ -1,0 +1,83 @@
+.wallet{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    & .wal-title{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 20px;
+        @media (max-width: 950px) {
+            text-align: center;
+        }
+    }
+    & .wal-box{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        & .wal-center{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            border: 3px solid #FFFFFF80;
+            border-radius: 16px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            box-shadow: -4px -3px 10px 10px #8609b7;
+            @media (max-width: 800px) {
+                width: 100%;
+            }
+            & .wal-img{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                & .emoji{
+                    max-width: 100%;
+                    height: auto;
+                
+                }
+            }
+
+            & .gaurd{
+                font-family: sans-serif;
+                font-size: 15px;
+                font-weight: 600;
+                padding-top: 20px;
+            }
+            & .found{
+                font-family: sans-serif;
+                font-size: 13px;
+                font-weight: 500;
+                padding-top: 20px;
+
+            }
+        }
+    }
+}
+.wal-para{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    
+        @media (max-width: 800px) {
+            font-size: 15px;
+            
+        }
+    
+    
+}
+.wal-heading{
+    width: 100%;
+}
