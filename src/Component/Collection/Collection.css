@@ -61,17 +61,17 @@ margin-top: 40px;
         justify-content: space-between;
         background: transparent;
         @media (max-width:700px) {
-            
             width: 100%;
         }
        & .art-img{
         width: 20%;
         background: transparent;
         @media (max-width:950px) {
-            width: 30%;
+            width: 20%;
             display: flex;
             justify-content: center;
         }
+       
        }
        & .art-title{
         width: 60%;
@@ -90,11 +90,12 @@ margin-top: 40px;
             font-family: sans-serif;
             background: transparent;
             @media (max-width:950px) {
-                font-size: 20px;
+                font-size: 18px;
             }
+
         }
         & #fluf{
-            font-size: 13px;
+            font-size: 12px;
             background: transparent;
             @media (max-width:950px) {
                 font-size: 8px;
@@ -107,7 +108,7 @@ margin-top: 40px;
         background: transparent;
         display: flex;
         & .art-btn1{
-            padding: 5px 10px;
+            padding: 5px 8px;
             font-size: 15px;
             font-weight: 500;
             background-color: white;
@@ -157,3 +158,12 @@ margin-top: 10px;
    }   
 }   
 }
+@media (max-width:320px) {
+    .art-img{
+        width: 20%;
+    }
+    .art-h{
+        font-size: 14px;
+        font-weight: 400;
+    }
+ }
