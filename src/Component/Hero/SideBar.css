@@ -12,7 +12,7 @@
         display: none;
     }
     & .side-btn{
-        
+        background-color: #191919;
         width: 80%;
         display: flex;
         cursor: pointer;
@@ -27,21 +27,21 @@
         display: flex;
         align-items: center;
         margin-left: 10px;
-       
+        background-color: #191919;
         padding-bottom: 20px;
         & ul{
             margin-top: 20px;
             list-style: none;
-            
+            background-color: #191919;
             & li{
                 padding-top: 15px;
                 font-size: 20px;
                 font-weight: 500;
                 color: #949292;
                 font-family: sans-serif;
-               
+                background-color: #191919;
                 & .navlink{
-                   
+                   background: transparent;
                     text-decoration: none;
                     @media (max-width: 1000px) {
                         font-size: 15px;
@@ -53,32 +53,37 @@
 }
 .side-img{
     margin-right: 30px;
-    
+    background-color: #191919;
 }
 .side-list2{
     width: 100%;
     display: flex;
     align-items: center;
     margin-left: 10px;
-    
+    background-color: #191919;
     padding-bottom: 20px;
     
     & ul{
         margin-top: 20px;
         list-style: none;
-       
-        & li{
+        background-color: #191919;
+        &  li{
             padding-top: 15px;
             font-size: 20px;
             font-weight: 500;
+            color: #949292;
             font-family: sans-serif;
-            color: #a7a5a5;
-            
-           
+            background-color: #191919;
+            & .navlink{
+               background: transparent;
+                text-decoration: none;
+               
+            }
         }
     }
 }
 .sidebar2{
     width: 5%;
+    background-color: #191919;
 }
  
