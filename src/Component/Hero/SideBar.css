@@ -20,6 +20,7 @@
         font-size: 25px;
         color: #FFFFFF;
         margin-top: 10px; 
+
     }
     
     & .side-list{
@@ -34,7 +35,7 @@
             list-style: none;
             background-color: #191919;
             & li{
-                padding-top: 15px;
+                padding-top: 16px;
                 font-size: 20px;
                 font-weight: 500;
                 color: #949292;
