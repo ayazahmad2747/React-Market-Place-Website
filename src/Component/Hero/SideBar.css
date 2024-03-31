@@ -12,7 +12,7 @@
         display: none;
     }
     & .side-btn{
-        background: transparent;
+        
         width: 80%;
         display: flex;
         cursor: pointer;
@@ -32,16 +32,16 @@
         & ul{
             margin-top: 20px;
             list-style: none;
-            background: transparent;
+            
             & li{
                 padding-top: 15px;
                 font-size: 20px;
                 font-weight: 500;
                 color: #949292;
                 font-family: sans-serif;
-                background: transparent;
+               
                 & .navlink{
-                    background: transparent;
+                   
                     text-decoration: none;
                     @media (max-width: 1000px) {
                         font-size: 15px;
